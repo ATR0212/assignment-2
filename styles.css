@@ -206,6 +206,57 @@ nav {
     color: #5A5A5D;
 }
 
+/* footer related styles */
+
+footer {
+    margin-top: 100px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer {
+    padding: 110px 330px;
+}
+
+.ftr-up {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin: 0px 200px;
+}
+
+.ftr-img {
+    width: 40px;
+    height: 46.673px;
+    flex-shrink: 0;
+}
+
+.ftr-name {
+    color: var(--Dark-01, #131318);
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.ftr-description {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.line {
+    width: 872px;
+    margin-top: 0px;
+    padding-bottom: 30px;
+}
+
+.ftr-last {
+    color: #131318;
+    font-style: normal;
+    font-weight: 300;
+    margin: 30px 550px;
+    padding-bottom: 50px;
+}
+
+
 
 @media screen and (max-width:560px) {
     nav {
@@ -301,7 +352,8 @@ nav {
     .card-description {
         font-size: 14px;
     }
-    #best-price{
+
+    #best-price {
         margin-top: 25px;
     }
 
@@ -310,5 +362,32 @@ nav {
     .guarantee {
         padding: 10px;
         padding-right: 0px;
+    }
+
+    /* footer */
+
+    .footer{
+        padding: 0px;
+        align-items: center;
+    }
+
+    .ftr-up,
+    .ftr-description,
+    .ftr-last{
+        margin: 0px;
+    }
+    .line{
+        width: 60%;
+    }
+    .ftr-last{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .ftr-up{
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .ftr-description{
+        margin-bottom: 20px;
     }
 }
